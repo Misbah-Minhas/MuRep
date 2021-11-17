@@ -1,0 +1,142 @@
+#colFolder {
+	color:red;
+}
+.download-btn {
+	text-align: right;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2px
+}
+.download-btn .btn-next {
+    color: #fff;
+    background-color: #ef6323;
+    border-color: #ef6323;
+}
+.Ocode {
+    font-size: 11px;
+    color: #754c56;
+}
+.ClickMutants{
+	cursor: pointer;
+}
+.files span {
+	display:flex;
+}
+.files{
+    background: #f9f9f9;
+    width: 98%;
+    height: 430px;
+    overflow: scroll;
+    padding: 10px;
+    BORDER: 1PX Solid #d2d2d2;
+}
+.files label{
+	padding-left:10px;
+	font-weight:500px;
+}
+.webOperators {
+	 background: #f9f9f9;
+    
+    padding: 10px;
+    BORDER: 1PX Solid #d2d2d2;
+}
+.genrateMutants {
+	text-align:center;
+}
+.topheading {
+	    font-size: 17px;
+    color: teal;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid gray;
+    margin-bottom: 10px; 
+}
+.navbar-inverse {
+background:#008080;
+border:1px solid #008080;
+color:white;
+}
+.navbar-inverse .navbar-brand {
+    color: white !important;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+/* The container */
+.hero .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+}
+.btn-download {
+	background:teal;
+	color:#fff;
+	
+}
+
+.codeSection 
+{
+	background-color:#f9f9f9;
+}
+.btn-mutants {
+	background:#ef6323;
+	color:white;
+}
+/* Hide the browser's default radio button */
+.indexcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+ /* top: 0;*/
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.indexcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.indexcontainer input:checked ~ .checkmark {
+  background-color: #23d7ce;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.indexcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.indexcontainer .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.submission-btn {
+	padding-top:25px;
+}
+.submission-btn .btn-next{
+	color: #fff;
+    background-color: #ef6323;
+    border-color: #ef6323;
+}
