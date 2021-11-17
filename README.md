@@ -16,17 +16,17 @@ The detailed list of supported operators are given below:
 13. WOR (Web remove option under select)
 14. WPR (Web PopUp box replacement)
 # Basic Requirements
-Machine: minimum 4GB RAM and 4-core processor
-OS: Windows 8/10
-PHP: Version 5
+1. Machine: minimum 4GB RAM and 4-core processor
+2. OS: Windows 8/10
+3. PHP: Version 5
 # Using Toolset
-Step: 1
+1. Step
   Clone the repository using the following command. git clone https://github.com/Misbah-Minhas/MuRepStep
-Step: 2
+2. Step
   Import database "mutationoperators". 
-Step: 3
+3. Step
   Add your web pages in the Application Under Test folder. 
-Step: 4
+4. Step
   Run index.php on web server.
 
 
