@@ -45,7 +45,8 @@ if ($handle = opendir('C:/xampp/htdocs/MuRep/ApplicationUnderTest')) {
 			echo "<br>";
 			
 			echo "<label class='container indexcontainer'>";
-			$path='C:/xampp/htdocs/MutationTesting/ApplicationUnderTest/'.$file ;
+			#Change name of path 
+			$path='C:/xampp/htdocs/MuRep/ApplicationUnderTest/'.$file ;
 			
 			echo "<input type='radio'  name='application' class='appLink' value='".$path."' >";
 			echo $file;
