@@ -37,7 +37,7 @@ function validateForm(){
 	<form name="myForm" action="mutationOperator.php" onsubmit="return validateForm()" method="post"> 
       <h3>Select Application</h3>
       <?php
-if ($handle = opendir('C:/xampp/htdocs/MutationTesting/ApplicationUnderTest')) {
+if ($handle = opendir('C:/xampp/htdocs/MuRep/ApplicationUnderTest')) {
     $blacklist = array('.', '..', 'somedir', 'somefile.php');
     while (false !== ($file = readdir($handle))) {
         if (!in_array($file, $blacklist)) {
