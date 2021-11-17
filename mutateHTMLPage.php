@@ -67,9 +67,10 @@ function replace_a_line($data) {
 		}
    return $data;
 }
-file_put_contents('C:/xampp/htdocs/MutationTesting/MutantedVersions/MutatedFile.html', implode('', $data));
-$text= file_get_contents('C:/xampp/htdocs/MutationTesting/MutantedVersions/MutatedFile.html');
-$all_lines = file('C:/xampp/htdocs/MutationTesting/MutantedVersions/MutatedFile.html');
+/* Replace Path */
+file_put_contents('C:/xampp/htdocs/MuRep/MutantedVersions/MutatedFile.html', implode('', $data));
+$text= file_get_contents('C:/xampp/htdocs/MuRep/MutantedVersions/MutatedFile.html');
+$all_lines = file('C:/xampp/htdocs/MuRep/MutantedVersions/MutatedFile.html');
 echo "<div class='submission-btn' style='text-align:right;text-align: right;
     padding: 0px;
     border-bottom: 1px solid #e4e4e4;' >
