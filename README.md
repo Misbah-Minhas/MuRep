@@ -1,1 +1,2 @@
-# MuRep
+# An Automated Technique for Empirical Evaluation of Test Repair Approaches by Using Mutation Analysis
+This paper has proposed an automated technique that evaluates test repair approaches using mutation analysis.  A tool is developed to demonstrate the applicability of the technique. The tool takes web applications as an input and generates the mutated versions of that web application using our proposed mutation operators. 
